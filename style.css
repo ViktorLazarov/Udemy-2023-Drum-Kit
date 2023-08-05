@@ -1,0 +1,50 @@
+body {
+    background-color: darkblue;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 150px;
+}
+button {
+    height: 100px;
+    width: 100px;
+    border: 5px solid darkgray;
+    border-radius: 5%;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 0px white;
+}
+.W {
+    background-image: url(images/tom1.png);
+}
+.A {
+    background-image: url(images/tom2.png);
+}
+.S {
+    background-image: url(images/tom3.png);
+}
+.D {
+    background-image: url(images/tom4.png);
+}
+.J {
+    background-image: url(images/snare.png);
+}
+.K {
+    background-image: url(images/crash.png);
+}
+.L {
+    background-image: url(images/kick.png);
+}
